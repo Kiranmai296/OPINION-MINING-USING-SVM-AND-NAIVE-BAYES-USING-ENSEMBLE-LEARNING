@@ -6,7 +6,7 @@ This project focuses on opinion mining from hotel customer reviews using an ense
 
 ## Dataset
 
-- **File**: `tripadvisor_hotel_reviews.csv`
+- **File**: `tripadvisor_hotel_reviews.csv` from Kaggle
 - **Description**: Contains text reviews and corresponding ratings for hotel experiences.
 
 ### Columns:
@@ -28,8 +28,8 @@ This project focuses on opinion mining from hotel customer reviews using an ense
   - 4-5 → **Positive**
 
 ### 3. Text Preprocessing
-- Lowercasing, tokenization, stop word removal, stemming/lemmatization
-- Vectorization using **TF-IDF** or **CountVectorizer**
+- Lowercasing, tokenization, stop word removal
+- Vectorization using **TF-IDF**
 
 ### 4. Model Building
 - **Support Vector Machine (SVM)**
@@ -56,9 +56,7 @@ pip install pandas scikit-learn numpy matplotlib seaborn
 
 **##How to Run**
 Clone this repository.
-
 Place tripadvisor_hotel_reviews.csv in the root folder.
-
 Open and run main.ipynb in Jupyter Notebook or any Python environment.
 
 **Author**
